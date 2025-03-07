@@ -1,22 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="167px" height="33px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <mask fill="white" id="clip102">
-      <path d="M 0 21  L 0 2  C 0 0.879999999999995  0.879999999999995 0  2 0  L 155 0  C 156.12 0  157 0.879999999999995  157 2  L 157 21  C 157 22.12  156.12 23  155 23  L 100.545454545455 23  L 2 23  C 0.879999999999995 23  0 22.12  0 21  Z " fill-rule="evenodd" />
-    </mask>
-    <filter x="672px" y="442px" width="167px" height="33px" filterUnits="userSpaceOnUse" id="filter103">
-      <feOffset dx="3" dy="3" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget104">
-      <path d="M 0 21  L 0 2  C 0 0.879999999999995  0.879999999999995 0  2 0  L 155 0  C 156.12 0  157 0.879999999999995  157 2  L 157 21  C 157 22.12  156.12 23  155 23  L 100.545454545455 23  L 2 23  C 0.879999999999995 23  0 22.12  0 21  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 674 444 )" />
-      <path d="M 0 21  L 0 2  C 0 0.879999999999995  0.879999999999995 0  2 0  L 155 0  C 156.12 0  157 0.879999999999995  157 2  L 157 21  C 157 22.12  156.12 23  155 23  L 100.545454545455 23  L 2 23  C 0.879999999999995 23  0 22.12  0 21  Z " stroke-width="2" stroke="#adb0c1" fill="none" transform="matrix(1 0 0 1 674 444 )" mask="url(#clip102)" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -672 -442 )">
-    <use xlink:href="#widget104" filter="url(#filter103)" />
-    <use xlink:href="#widget104" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="29px" height="25px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -718 -500 )">
+    <path d="M 719.74580709172 512.5  L 726.34580709172 501.5  L 738.65419290828 501.5  L 745.25419290828 512.5  L 738.65419290828 523.5  L 726.34580709172 523.5  L 719.74580709172 512.5  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" />
+    <path d="M 718 512.5  L 725.5 500  L 739.5 500  L 747 512.5  L 739.5 525  L 725.5 525  L 718 512.5  Z M 726.62774278896 502  L 720.32774278896 512.5  L 726.62774278896 523  L 738.37225721104 523  L 744.67225721104 512.5  L 738.37225721104 502  L 726.62774278896 502  Z " fill-rule="nonzero" fill="#d9001b" stroke="none" />
   </g>
 </svg>
