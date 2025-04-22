@@ -157,7 +157,8 @@
         var _getScriptIdFromFullPath = function(path) {
             var current = $ax.pageData.objectPaths;
             for(var i = 0; i < path.length; i++) {
-                current = current[path[i]];
+                var encodedPath = encodeURIComponent(path[i]);
+                current = current[encodedPath] || current[path[i]]; // 尝试编码后的路径，如果不存在则使用原始路径
                 if(!current) return current;
             }
             return current && current.scriptId;
