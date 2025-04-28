@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1479px" height="988px" viewBox="0 0 1479 988" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg</title>
+    <defs>
+        <filter x="-0.8%" y="-1.2%" width="101.6%" height="102.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0117647059   0 0 0 0 0.392156863   0 0 0 0 0.419607843  0 0 0 0.252718839 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#9EC9D2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="8.64545455 -5.02352854e-12 1355.78585 3.59646381e-12 1361.14149 6 1404.82556 6 1410.11312 3.59646381e-12 1451.80403 3.59646381e-12 1460.44949 7.3943662 1460.44949 962.136344 1451.80403 969.53071 8.64545455 969.53071 1.40038593e-12 962.136344 -3.2428493e-13 7.3943662"></polygon>
+        <filter x="-1.8%" y="-2.7%" width="103.6%" height="105.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="26" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.787675498 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="中心详情展示" transform="translate(-434.000000, -85.000000)">
+            <g id="bg" transform="translate(443.000000, 94.000000)">
+                <g id="编组-17备份-8" filter="url(#filter-1)" transform="translate(730.224744, 484.765355) scale(1, -1) translate(-730.224744, -484.765355) ">
+                    <g id="编组-4" transform="translate(1381.449488, 2.605634) scale(-1, 1) translate(-1381.449488, -2.605634) translate(1362.449488, 1.605634)">
+                        <g id="编组-22" transform="translate(19.000000, 1.000000) scale(-1, 1) translate(-19.000000, -1.000000) ">
+                            <polygon id="路径备份-5" fill="#33808D" transform="translate(32.000000, 1.000000) scale(-1, 1) translate(-32.000000, -1.000000) " points="26 0 37 0 38 2 27 2"></polygon>
+                            <polygon id="路径备份-6" fill="#75ACB5" opacity="0.600000024" transform="translate(19.000000, 1.000000) scale(-1, 1) translate(-19.000000, -1.000000) " points="13 0 24 0 25 2 14 2"></polygon>
+                            <polygon id="路径备份-7" fill="#ACD0D7" opacity="0.600000024" transform="translate(6.000000, 1.000000) scale(-1, 1) translate(-6.000000, -1.000000) " points="2.34479103e-12 0 11 0 12 2 1 2"></polygon>
+                        </g>
+                    </g>
+                    <g id="路径备份-3">
+                        <use fill="#E8F8FB" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <path stroke="url(#linearGradient-2)" stroke-width="1" d="M1355.56194,0.5 L1360.91758,6.5 L1405.05138,6.5 L1410.33894,0.5 L1451.61938,0.5 L1459.94949,7.62465764 L1459.94949,961.906053 L1451.61938,969.03071 L8.83011271,969.03071 L0.5,961.906053 L0.5,7.62465764 L8.83011271,0.5 L1355.56194,0.5 Z" stroke-linejoin="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
