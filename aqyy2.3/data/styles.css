@@ -173,6 +173,26 @@
   font-size:12px;
   text-align:left;
 }
+.heading_2 {
+  font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:20px;
+  text-align:left;
+  line-height:28px;
+}
+.heading_3 {
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:16px;
+  text-align:left;
+  line-height:24px;
+}
+.label2 {
+  font-size:12px;
+  text-align:left;
+}
 ._形状1 {
   font-family:'';
   font-weight:normal;
@@ -229,5 +249,7 @@
 ._图片 {
 }
 .box_13 {
+}
+.table_cell1 {
 }
 textarea, select, input, button { outline: none; }
