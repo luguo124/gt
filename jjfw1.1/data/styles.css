@@ -10,6 +10,8 @@
   line-height:normal;
   text-transform:none;
 }
+._图片_ {
+}
 ._一级标题 {
   font-family:'ArialMT', 'Arial', sans-serif;
   font-weight:bold;
@@ -54,6 +56,10 @@
 ._文本段落 {
   text-align:left;
 }
+.droplist {
+  color:#000000;
+  text-align:left;
+}
 ._表单提示 {
   color:#999999;
 }
@@ -89,6 +95,11 @@
 }
 .sticky_1 {
   text-align:left;
+}
+.form_disabled {
+}
+.primary_button {
+  color:#FFFFFF;
 }
 .image {
 }
