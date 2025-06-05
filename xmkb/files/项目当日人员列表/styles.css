@@ -1526,9 +1526,9 @@
   background-image:none;
   border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  -moz-box-shadow:0px -5px 5px rgba(0, 0, 0, 0.349019607843137);
+  -webkit-box-shadow:0px -5px 5px rgba(0, 0, 0, 0.349019607843137);
+  box-shadow:0px -5px 5px rgba(0, 0, 0, 0.349019607843137);
 }
 #u149_state0_content {
   border-width:0px;
