@@ -69,7 +69,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:116px;
+  width:240px;
   height:20px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -86,9 +86,9 @@
 #u203 {
   border-width:0px;
   position:absolute;
-  left:50px;
-  top:329px;
-  width:116px;
+  left:33px;
+  top:333px;
+  width:240px;
   height:20px;
   display:flex;
   font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;
@@ -113,7 +113,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:88px;
+  width:108px;
   height:20px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -130,9 +130,9 @@
 #u204 {
   border-width:0px;
   position:absolute;
-  left:203px;
-  top:329px;
-  width:88px;
+  left:35px;
+  top:366px;
+  width:108px;
   height:20px;
   display:flex;
   font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;
@@ -1845,8 +1845,8 @@
 #u261 {
   border-width:0px;
   position:absolute;
-  left:15px;
-  top:369px;
+  left:17px;
+  top:406px;
   width:350px;
   height:240px;
 }
@@ -3364,5 +3364,71 @@
 #u307_text {
   border-width:0px;
   white-space:nowrap;
+  text-transform:none;
+}
+#u308_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:14px;
+  height:14px;
+}
+#u308 {
+  border-width:0px;
+  position:absolute;
+  left:156px;
+  top:369px;
+  width:14px;
+  height:14px;
+  display:flex;
+}
+#u308 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u308_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u309_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:105px;
+  height:30px;
+  background:inherit;
+  background-color:rgba(255, 223, 37, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#u309 {
+  border-width:0px;
+  position:absolute;
+  left:179px;
+  top:361px;
+  width:105px;
+  height:30px;
+  display:flex;
+}
+#u309 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:10px 10px 10px 10px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u309_text {
+  border-width:0px;
+  word-wrap:break-word;
   text-transform:none;
 }
