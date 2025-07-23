@@ -12,6 +12,8 @@
 }
 ._图片_ {
 }
+.button {
+}
 .primary_button {
   color:#FFFFFF;
 }
@@ -64,6 +66,9 @@
 ._连接 {
 }
 .sticky_1 {
+  text-align:left;
+}
+.sticky_2 {
   text-align:left;
 }
 ._表单提示 {
@@ -128,6 +133,9 @@
 .radio_button {
   text-align:left;
 }
+.tree_node {
+  text-align:left;
+}
 .form_disabled {
 }
 .paragraph {
@@ -155,6 +163,9 @@
   color:#000000;
 }
 .radio_button1 {
+  text-align:left;
+}
+.tree_node1 {
   text-align:left;
 }
 .table {
@@ -202,5 +213,14 @@
 .box_12 {
   font-size:12px;
   text-align:left;
+}
+._形状1 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  font-size:13px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
 }
 textarea, select, input, button { outline: none; }
