@@ -71,6 +71,9 @@
 .sticky_2 {
   text-align:left;
 }
+.sticky_4 {
+  text-align:left;
+}
 ._表单提示 {
   color:#999999;
 }
@@ -200,6 +203,8 @@
 }
 .default_button {
 }
+._线段 {
+}
 .primary_button1 {
   color:#FFFFFF;
 }
@@ -222,5 +227,12 @@
   color:#FFFFFF;
   text-align:center;
   line-height:normal;
+}
+._34号字_单行列表内，左方主标题文字字） {
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:17px;
+  text-align:left;
 }
 textarea, select, input, button { outline: none; }
