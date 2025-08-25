@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1142px" height="821px" viewBox="0 0 1142 821" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>中间框 </title>
+    <defs>
+        <filter x="-1.1%" y="-1.5%" width="102.1%" height="103.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0117647059   0 0 0 0 0.392156863   0 0 0 0 0.419607843  0 0 0 0.252718839 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#9EC9D2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="8.64545455 -1.27472157e-12 1018.78585 4.250682e-14 1024.14149 6 1067.82556 6 1073.11312 4.250682e-14 1114.80403 4.250682e-14 1123.44949 7.3943662 1123.44949 795.136344 1114.80403 802.53071 8.64545455 802.53071 1.24727949e-12 795.136344 -1.24727949e-13 7.3943662"></polygon>
+        <filter x="-2.3%" y="-3.2%" width="104.6%" height="106.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="26" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.787675498 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="居家人群" transform="translate(-389.000000, -85.000000)">
+            <g id="中间框-" transform="translate(398.000000, 94.000000)">
+                <g id="编组-17备份-8" filter="url(#filter-1)" transform="translate(561.724744, 401.265355) scale(1, -1) translate(-561.724744, -401.265355) ">
+                    <g id="编组-4" transform="translate(1044.449488, 2.605634) scale(-1, 1) translate(-1044.449488, -2.605634) translate(1025.449488, 1.605634)">
+                        <g id="编组-22" transform="translate(19.000000, 1.000000) scale(-1, 1) translate(-19.000000, -1.000000) translate(0.000000, 0.000000)">
+                            <polygon id="路径备份-5" fill="#33808D" transform="translate(32.000000, 1.000000) scale(-1, 1) translate(-32.000000, -1.000000) " points="26 -9.09494702e-13 37 -9.09494702e-13 38 2 27 2"></polygon>
+                            <polygon id="路径备份-6" fill="#75ACB5" opacity="0.600000024" transform="translate(19.000000, 1.000000) scale(-1, 1) translate(-19.000000, -1.000000) " points="13 -9.09494702e-13 24 -9.09494702e-13 25 2 14 2"></polygon>
+                            <polygon id="路径备份-7" fill="#ACD0D7" opacity="0.600000024" transform="translate(6.000000, 1.000000) scale(-1, 1) translate(-6.000000, -1.000000) " points="2.38742359e-12 -9.09494702e-13 11 -9.09494702e-13 12 2 1 2"></polygon>
+                        </g>
+                    </g>
+                    <g id="路径备份-3">
+                        <use fill="#E8F8FB" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <path stroke="url(#linearGradient-2)" stroke-width="1" d="M1114.61938,0.5 L1122.94949,7.62465764 L1122.94949,794.906053 L1114.61938,802.03071 L8.83011271,802.03071 L0.5,794.906053 L0.5,7.62465764 L8.83011271,0.5 L1018.56194,0.5 L1023.91758,6.5 L1068.05138,6.5 L1073.33894,0.5 L1114.61938,0.5 Z" stroke-linejoin="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
