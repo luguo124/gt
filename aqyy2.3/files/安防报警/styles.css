@@ -17696,3 +17696,39 @@
   text-transform:none;
   visibility:hidden;
 }
+#u6872_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:310px;
+  height:212px;
+  background:inherit;
+  background-color:rgba(239, 90, 161, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#u6872 {
+  border-width:0px;
+  position:absolute;
+  left:940px;
+  top:241px;
+  width:310px;
+  height:212px;
+  display:flex;
+}
+#u6872 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:10px 10px 10px 10px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u6872_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
