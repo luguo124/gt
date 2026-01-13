@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nav_arrow_nor</title>
+    <defs>
+        <filter x="-0.9%" y="-27.3%" width="101.8%" height="154.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="top" transform="translate(-1891.000000, -28.000000)" fill="#8C909C" filter="url(#filter-1)">
+            <g id="user" transform="translate(1844.000000, 16.000000)">
+                <g id="nav_arrow_nor" transform="translate(54.000000, 16.375000) rotate(-360.000000) translate(-54.000000, -16.375000) translate(50.250000, 13.750000)">
+                    <path d="M3.74936993,3.39593025 L6.51958558,0.175516252 C6.71028711,-0.046176916 7.04459907,-0.0713006012 7.26629223,0.119400931 C7.28596842,0.136326483 7.30437351,0.154675845 7.32135865,0.17430062 C7.55203243,0.440823052 7.55246997,0.836159234 7.32238672,1.10319162 L4.50724408,4.37041866 C4.14674072,4.78881533 3.51531749,4.83574714 3.09692082,4.47524379 C3.0593347,4.44285844 3.02421083,4.40772081 2.9918402,4.37012201 L0.177488715,1.101226 C-0.051760514,0.834950843 -0.0522937748,0.441195744 0.176233384,0.17430062 C0.364707571,-0.0458169446 0.69593663,-0.0714689702 0.916054194,0.117005217 C0.93618467,0.134241802 0.954980336,0.152978747 0.972279825,0.173055191 L3.74936993,3.39593025 L3.74936993,3.39593025 Z" id="arrow" transform="translate(3.750000, 2.625000) rotate(-360.000000) translate(-3.750000, -2.625000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
